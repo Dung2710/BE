@@ -1,9 +1,9 @@
-
 # Cách làm việc với github
 
 ## 1. Tách nhánh theo chức cần thiết từ nhánh phát triển (dev)
 
-- Sử dụng câu lệnh ở trên nhánh dev `git branch -M ten-nhanh`. (Tính năng mới thì sẽ đặt tên nhánh theo tên tính năng còn nếu fix lỗi thì sẽ có tiền tố là fix/ten-nhanh).
+- Trước khi tách nhánh hỏi thành viên xem code mới nhất đang ở nhánh nào rồi dùng câu lệnh `git checkout (tên nhánh của code mới nhất)` và sử dụng câu lệnh `git pull` để lấy code mới nhất từ nhánh đó về
+- Sử dụng câu lệnh ở trên nhánh có code mới nhất `git branch -M ten-nhanh`. (Tính năng mới thì sẽ đặt tên nhánh theo tên tính năng còn nếu fix lỗi thì sẽ có tiền tố là fix/ten-nhanh).
 
 ## 2. Gói code và đẩy code
 
